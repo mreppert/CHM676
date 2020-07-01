@@ -181,4 +181,4 @@ def build_schedule_f2020():
     schd.add_content(content('lecture', 'Diagrammatic 2D Spectroscopy'))
 
     schd.add_content(content('lecture', 'Freedom!'))
-    return schedule
+    return schd
