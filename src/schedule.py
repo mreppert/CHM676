@@ -108,9 +108,7 @@ class content:
         self.isnew = newtopic
 
 
-def build_schedule_f2020():
-    
-    srcdir = 'git/CHM676/src/'
+def build_schedule_f2020(srcdir):
     schd = schedule('MWF', '2020-08-24')
 
     schd.add_holiday('2020-11-25', 'Thanksgiving')
