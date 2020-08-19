@@ -123,8 +123,8 @@ def build_schedule_f2020(srcdir):
     schd.add_holiday('2020-12-12', 'Finals')
 
     schd.add_content(content('lecture', 'Python Crash Course: Introduction', link=srcdir+'programming/definitions.ipynb', newtopic=True))
-    schd.add_content(content('lecture', 'Python Crash Course: Key Modules', link=srcdir+'modules.ipynb'))
-    schd.add_content(content('lecture', 'Python Crash Course: Molecular Dynamics', link=srcdir+'md.ipynb'))
+    schd.add_content(content('lecture', 'Python Crash Course: Python Arrays', link=srcdir+'programming/arrays.ipynb'))
+    schd.add_content(content('lecture', 'Python Crash Course: Molecular Dynamics', link=srcdir+'programming/md.ipynb'))
 
     schd.add_content(content('lecture', 'Maxwell\'s equations and the Lorentz Force Law'))
     schd.add_content(content('lecture', 'Electromagnetic Waves in Vacuum'))
