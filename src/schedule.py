@@ -84,26 +84,38 @@ class schedule:
             lastday = item.date.weekday()
             datetext = " * " + item.date.strftime("%b %-d") + ": "
             
+            holiday_color = 'Purple'
+            lecture_color = '#3090C7'
+            compute_color = 'DarkBlue'
             
             if item.cformat=='holiday':
-                titletext = '<span style="color:blue">' + item.title + '</span>'
+                titlecol = holiday_color
             elif item.cformat=='lecture':
-                titletext = item.title
+                titlecol = lecture_color
+            elif item.cformat=='compute':
+                titlecol = compute_color
             else:
                 titletext = item.title
                 
             if len(item.link)>0:
-                titletext = '[' + titletext + '](' + item.link + ')'
-                
+                titletext = "<a href=\""+ item.link + "\"> <span style=\"color:" + titlecol + ";text-decoration:underline\">" + item.title + "</span></a>"
+            else:
+                titletext = "<span style=\"color:" + titlecol + "\">" + item.title + "</span>"
+                #titletext = '[' + titletext + '](' + item.link + ')'
+            
+            if len(item.vlink)>0:
+                titletext += ' ([video](' + item.vlink + '))'
+            
                 
             mdtext += datetext + titletext + " \r\r"
         display_markdown(mdtext, raw=True)
         
 class content:
-    def __init__(self, cformat, title, newtopic=False, link=''):
+    def __init__(self, cformat, title, newtopic=False, link='', vlink=''):
         self.cformat = cformat
         self.title = title
         self.link = link
+        self.vlink = vlink
         self.date = -1
         self.isnew = newtopic
 
@@ -122,19 +134,19 @@ def build_schedule_f2020(srcdir):
     schd.add_holiday('2020-12-11', 'Finals')
     schd.add_holiday('2020-12-12', 'Finals')
 
-    schd.add_content(content('lecture', 'Python Crash Course: Introduction', link=srcdir+'programming/definitions.ipynb', newtopic=True))
-    schd.add_content(content('lecture', 'Python Crash Course: Python Arrays', link=srcdir+'programming/arrays.ipynb'))
-    schd.add_content(content('lecture', 'Python Crash Course: Molecular Dynamics', link=srcdir+'programming/md.ipynb'))
+    schd.add_content(content('compute', 'Python Crash Course: Introduction', link=srcdir+'programming/definitions.ipynb', newtopic=True, vlink='https://983291-6.kaf.kaltura.com/media/t/0_nsscr85j/177251882'))
+    schd.add_content(content('compute', 'Python Crash Course: Python Arrays', link=srcdir+'programming/arrays.ipynb'))
+    schd.add_content(content('compute', 'Python Crash Course: Molecular Dynamics', link=srcdir+'programming/md.ipynb'))
 
-    schd.add_content(content('lecture', 'Maxwell\'s equations and the Lorentz Force Law'))
-    schd.add_content(content('lecture', 'Electromagnetic Waves in Vacuum'))
-    schd.add_content(content('lecture', 'Fourier Transforms'))
+    schd.add_content(content('lecture', 'Maxwell\'s equations and the Lorentz Force Law', link='https://mreppert.github.io/education/chm676/notes/MaxwellsEquations.pdf'))
+    schd.add_content(content('lecture', 'Electromagnetic Waves in Vacuum', link='https://mreppert.github.io/education/chm676/notes/VacuumWaves.pdf'))
+    schd.add_content(content('compute', 'Fourier Transforms'))
 
     schd.add_content(content('lecture', 'Energy Content in EM Waves'))
     schd.add_content(content('lecture', 'Microscopic Electrodynamics: The Wave Equation'))
     schd.add_content(content('lecture', 'MD in an Electric Field'))
 
-    schd.add_content(content('lecture', 'Ensemble-Averaged Fields'))
+    schd.add_content(content('lecture', 'Macroscopic Electrodynamics: Ensemble-Averaged Fields'))
     schd.add_content(content('lecture', 'Langevin Dynamics'))
     schd.add_content(content('lecture', 'Material Polarization'))
 
