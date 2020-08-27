@@ -135,7 +135,7 @@ def build_schedule_f2020(srcdir):
     schd.add_holiday('2020-12-12', 'Finals')
 
     schd.add_content(content('compute', 'Python Crash Course: Introduction', link=srcdir+'programming/definitions.ipynb', newtopic=True, vlink='https://983291-6.kaf.kaltura.com/media/t/0_nsscr85j/177251882'))
-    schd.add_content(content('compute', 'Python Crash Course: Python Arrays', link=srcdir+'programming/arrays.ipynb'))
+    schd.add_content(content('compute', 'Python Crash Course: Python Arrays', link=srcdir+'programming/arrays.ipynb', vlink='https://983291-6.kaf.kaltura.com/media/t/1_arhakfmo/177251882'))
     schd.add_content(content('compute', 'Python Crash Course: Molecular Dynamics', link=srcdir+'programming/md.ipynb'))
 
     schd.add_content(content('lecture', 'Maxwell\'s equations and the Lorentz Force Law', link='https://mreppert.github.io/education/chm676/notes/MaxwellsEquations.pdf'))
