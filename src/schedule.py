@@ -140,7 +140,7 @@ def build_schedule_f2020(srcdir):
 
     schd.add_content(content('lecture', 'Maxwell\'s equations and the Lorentz Force Law', link='https://mreppert.github.io/education/chm676f20/notes/MaxwellsEquations.pdf'))
     schd.add_content(content('lecture', 'Electromagnetic Waves in Vacuum', link='https://mreppert.github.io/education/chm676f20/notes/VacuumWaves.pdf'))
-    schd.add_content(content('compute', 'Fourier Transforms'))
+    schd.add_content(content('compute', 'Fourier Transforms', link=srcdir+'FT/FourierTransforms.ipynb'))
 
     schd.add_content(content('lecture', 'Energy Content in EM Waves'))
     schd.add_content(content('lecture', 'Microscopic Electrodynamics: The Wave Equation'))
