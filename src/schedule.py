@@ -144,7 +144,7 @@ def build_schedule_f2020(srcdir):
 
     schd.add_content(content('lecture', 'Energy Content in EM Waves', link='https://mreppert.github.io/education/chm676f20/notes/EnergyContent.pdf'))
     schd.add_content(content('lecture', 'Microscopic Electrodynamics: The Wave Equation', link='https://mreppert.github.io/education/chm676f20/notes/MicroscopicElectrodynamics.pdf'))
-    schd.add_content(content('lecture', 'MD in an Electric Field'))
+    schd.add_content(content('lecture', 'MD in an Electric Field', link=srcdir+'MDinField/MD.ipynb'))
 
     schd.add_content(content('lecture', 'Macroscopic Electrodynamics: Ensemble-Averaged Fields'))
     schd.add_content(content('lecture', 'Langevin Dynamics'))
