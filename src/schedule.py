@@ -143,7 +143,7 @@ def build_schedule_f2020(srcdir):
     schd.add_content(content('compute', 'Fourier Transforms', link=srcdir+'FT/FourierTransforms.ipynb', vlink='https://purdue.brightspace.com/d2l/home/52483'))
 
     schd.add_content(content('lecture', 'Energy Content in EM Waves', link='https://mreppert.github.io/education/chm676f20/notes/EnergyContent.pdf', vlink='https://purdue.brightspace.com/d2l/home/52483'))
-    schd.add_content(content('lecture', 'Microscopic Electrodynamics: The Wave Equation', link='https://mreppert.github.io/education/chm676f20/notes/MicroscopicElectrodynamics.pdf', vlink='https://purdue.brightspace.com/d2l/home/52483'))
+    schd.add_content(content('lecture', 'Microscopic Electrodynamics: The Wave Equation', link='https://mreppert.github.io/education/chm676f20/notes/MicroscopicElectrodynamics.pdf', vlink='https://983291-6.kaf.kaltura.com/media/1_sxgljsx0'))
     schd.add_content(content('compute', 'MD in an Electric Field', link=srcdir+'MDinEField/MD.ipynb'))
 
     schd.add_content(content('lecture', 'Macroscopic Electrodynamics: Ensemble-Averaged Fields'))
