@@ -140,7 +140,7 @@ def build_schedule_f2020(srcdir):
 
     schd.add_content(content('lecture', 'Maxwell\'s equations and the Lorentz Force Law', link='https://mreppert.github.io/education/chm676f20/notes/MaxwellsEquations.pdf', vlink='https://purdue.brightspace.com/d2l/home/52483'))
     schd.add_content(content('lecture', 'Electromagnetic Waves in Vacuum', link='https://mreppert.github.io/education/chm676f20/notes/VacuumWaves.pdf', vlink='https://purdue.brightspace.com/d2l/home/52483'))
-    schd.add_content(content('compute', 'Fourier Transforms', link=srcdir+'FT/FourierTransforms.ipynb'), vlink='https://purdue.brightspace.com/d2l/home/52483')
+    schd.add_content(content('compute', 'Fourier Transforms', link=srcdir+'FT/FourierTransforms.ipynb', vlink='https://purdue.brightspace.com/d2l/home/52483'))
 
     schd.add_content(content('lecture', 'Energy Content in EM Waves', link='https://mreppert.github.io/education/chm676f20/notes/EnergyContent.pdf', vlink='https://purdue.brightspace.com/d2l/home/52483'))
     schd.add_content(content('lecture', 'Microscopic Electrodynamics: The Wave Equation', link='https://mreppert.github.io/education/chm676f20/notes/MicroscopicElectrodynamics.pdf', vlink='https://purdue.brightspace.com/d2l/home/52483'))
