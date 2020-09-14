@@ -146,7 +146,7 @@ def build_schedule_f2020(srcdir):
     schd.add_content(content('lecture', 'Microscopic Electrodynamics: The Wave Equation', link='https://mreppert.github.io/education/chm676f20/notes/MicroscopicElectrodynamics.pdf', vlink='https://983291-6.kaf.kaltura.com/media/1_sxgljsx0'))
     schd.add_content(content('compute', 'MD in an Electric Field', link=srcdir+'MDinEField/MD.ipynb'))
 
-    schd.add_content(content('lecture', 'Macroscopic Electrodynamics: Ensemble-Averaged Fields'))
+    schd.add_content(content('lecture', 'Macroscopic Electrodynamics: Ensemble-Averaged Fields', link='https://mreppert.github.io/education/chm676f20/notes/MacroscopicElectrodynamics.pdf'))
     schd.add_content(content('lecture', 'Langevin Dynamics'))
     schd.add_content(content('lecture', 'Material Polarization'))
 
