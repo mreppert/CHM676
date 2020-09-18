@@ -148,7 +148,7 @@ def build_schedule_f2020(srcdir):
 
     schd.add_content(content('lecture', 'Macroscopic Electrodynamics: Ensemble-Averaged Fields', link='https://mreppert.github.io/education/chm676f20/notes/MacroscopicElectrodynamics.pdf'))
     schd.add_content(content('compute', 'Langevin Dynamics', link=srcdir+'Langevin/Langevin.ipynb'))
-    schd.add_content(content('compute', 'Material Polarization'), link=srcdir+'Langevin/Langevin_oscillators.ipynb'))
+    schd.add_content(content('compute', 'Material Polarization', link=srcdir+'Langevin/Langevin_oscillators.ipynb'))
 
     schd.add_content(content('lecture', 'Review'))
     schd.add_content(content('lecture', 'Review'))
