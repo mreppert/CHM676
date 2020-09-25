@@ -151,8 +151,8 @@ def build_schedule_f2020(srcdir):
     schd.add_content(content('compute', 'Material Polarization', link=srcdir+'Langevin/Langevin_oscillators.ipynb'))
 
     schd.add_content(content('lecture', 'Review'))
-    schd.add_content(content('lecture', 'Review', link=srcdir+'Exam1/exam1_practice.ipynb'))
-    schd.add_content(content('lecture', 'Exam'))
+    schd.add_content(content('lecture', 'Practice Exam 1', link=srcdir+'Exam1/exam1_practice.ipynb'))
+    schd.add_content(content('lecture', 'Exam (link will be activated at exam time)', link=srcdir+'Exam1/exam1.ipynb'))
 
     schd.add_content(content('lecture', 'Response Theory', newtopic=True))
     schd.add_content(content('lecture', 'Linear Response: Absorption Spectroscopy'))
