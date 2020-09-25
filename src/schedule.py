@@ -193,6 +193,7 @@ def build_schedule_f2020(srcdir):
     schd.add_content(content('lecture', 'Project Presentation'))
     schd.add_content(content('lecture', 'Project Presentation'))
     schd.add_content(content('lecture', 'Project Presentation'))
+    schd.add_content(content('lecture', '<Open>'))
 
     schd.add_content(content('lecture', 'Freedom!'))
     return schd
