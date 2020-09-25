@@ -154,13 +154,13 @@ def build_schedule_f2020(srcdir):
     schd.add_content(content('lecture', 'Practice Exam 1', link=srcdir+'Exam1/exam1_practice.ipynb'))
     schd.add_content(content('lecture', 'Exam (link will be activated at exam time)', link=srcdir+'Exam1/exam1.ipynb'))
 
-    schd.add_content(content('lecture', 'Response Theory', newtopic=True))
-    schd.add_content(content('lecture', 'Linear Response: Absorption Spectroscopy'))
+    schd.add_content(content('lecture', 'Response Theory', newtopic=True, link='https://mreppert.github.io/education/chm676f20/notes/ResponseTheory.pdf'))
+    schd.add_content(content('lecture', 'Linear Response: Absorption Spectroscopy', link='https://mreppert.github.io/education/chm676f20/notes/LinearResponse.pdf'))
     schd.add_content(content('lecture', 'IR Absorption Spectroscopy'))
 
-    schd.add_content(content('lecture', '$n$-Wave Mixing'))
-    schd.add_content(content('lecture', 'Nonlinear Spectroscopy'))
-    schd.add_content(content('lecture', 'Morse Oscillator'))
+    schd.add_content(content('lecture', 'Nonlinear Response', link='https://mreppert.github.io/education/chm676f20/notes/NonlinearResponse.pdf'))
+    schd.add_content(content('lecture', 'Nonlinear Spectroscopy', link='https://mreppert.github.io/education/chm676f20/notes/NonlinearSpectroscopy.pdf'))
+    schd.add_content(content('lecture', 'The Morse Oscillator'))
 
     schd.add_content(content('lecture', 'Homogeneous vs. Inhomogenous Broadening'))
     schd.add_content(content('lecture', 'Hole Burning Spectroscopy'))
