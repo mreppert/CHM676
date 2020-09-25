@@ -177,6 +177,10 @@ def build_schedule_f2020(srcdir):
     schd.add_content(content('lecture', 'Intro to Quantum Mechanics', newtopic=True))
     schd.add_content(content('lecture', 'Quantum Statistical Dynamics'))
     schd.add_content(content('lecture', 'Dephasing in the Quantum Ensemble'))
+    
+    schd.add_content(content('lecture', 'Quantum Nonlinear Response'))
+    schd.add_content(content('lecture', 'Arrow-Ladder Diagrams'))
+    schd.add_content(content('lecture', 'Diagrammatic 2D Spectroscopy'))
 
     schd.add_content(content('lecture', 'The Harmonic Oscillator'))
     schd.add_content(content('lecture', 'Molecular Excitons'))
@@ -185,10 +189,6 @@ def build_schedule_f2020(srcdir):
     #schd.add_content(content('lecture', 'Pure Dephasing Models'))
     #schd.add_content(content('lecture', 'Dissipation: Redfield and Forster Regimes'))
     #schd.add_content(content('lecture', 'Energy Transfer in Photosynthesis'))
-
-    schd.add_content(content('lecture', 'Quantum Nonlinear Response'))
-    schd.add_content(content('lecture', 'Arrow-Ladder Diagrams'))
-    schd.add_content(content('lecture', 'Diagrammatic 2D Spectroscopy'))
     
     schd.add_content(content('lecture', 'Review'))
     
