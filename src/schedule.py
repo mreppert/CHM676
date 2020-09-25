@@ -155,8 +155,8 @@ def build_schedule_f2020(srcdir):
     schd.add_content(content('lecture', 'Exam (link will be activated at exam time)', link=srcdir+'Exam1/exam1.ipynb'))
 
     schd.add_content(content('lecture', 'Response Theory', newtopic=True, link='https://mreppert.github.io/education/chm676f20/notes/ResponseTheory.pdf'))
-    schd.add_content(content('lecture', 'Linear Response: Absorption Spectroscopy', link='https://mreppert.github.io/education/chm676f20/notes/LinearResponse.pdf'))
-    schd.add_content(content('lecture', 'IR Absorption Spectroscopy'))
+    schd.add_content(content('lecture', 'Linear Response', link='https://mreppert.github.io/education/chm676f20/notes/LinearResponse.pdf'))
+    schd.add_content(content('lecture', 'Absorption Spectroscopy'))
 
     schd.add_content(content('lecture', 'Nonlinear Response', link='https://mreppert.github.io/education/chm676f20/notes/NonlinearResponse.pdf'))
     schd.add_content(content('lecture', 'Nonlinear Spectroscopy', link='https://mreppert.github.io/education/chm676f20/notes/NonlinearSpectroscopy.pdf'))
@@ -176,19 +176,17 @@ def build_schedule_f2020(srcdir):
 
     schd.add_content(content('lecture', 'Intro to Quantum Mechanics', newtopic=True))
     schd.add_content(content('lecture', 'Quantum Statistical Dynamics'))
-    schd.add_content(content('lecture', 'Matrix Computations'))
+    schd.add_content(content('lecture', 'Dephasing in the Quantum Ensemble'))
 
     schd.add_content(content('lecture', 'The Harmonic Oscillator'))
     schd.add_content(content('lecture', 'Molecular Excitons'))
     schd.add_content(content('lecture', 'Amide I Spectroscopy: Harmonic Excitons'))
 
-    schd.add_content(content('lecture', 'Pure Dephasing Models'))
-    schd.add_content(content('lecture', 'Dissipation: Redfield and Forster Regimes'))
-    schd.add_content(content('lecture', 'Energy Transfer in Photosynthesis'))
+    #schd.add_content(content('lecture', 'Pure Dephasing Models'))
+    #schd.add_content(content('lecture', 'Dissipation: Redfield and Forster Regimes'))
+    #schd.add_content(content('lecture', 'Energy Transfer in Photosynthesis'))
 
-    schd.add_content(content('lecture', 'Kubo Expansion I'))
-    schd.add_content(content('lecture', 'Kubo Expansion II'))
-
+    schd.add_content(content('lecture', 'Quantum Nonlinear Response'))
     schd.add_content(content('lecture', 'Arrow-Ladder Diagrams'))
     schd.add_content(content('lecture', 'Diagrammatic 2D Spectroscopy'))
 
