@@ -156,7 +156,7 @@ def build_schedule_f2020(srcdir):
 
     schd.add_content(content('lecture', 'Response Theory', newtopic=True, link='https://mreppert.github.io/education/chm676f20/notes/ResponseTheory.pdf'))
     schd.add_content(content('lecture', 'Linear Response', link='https://mreppert.github.io/education/chm676f20/notes/LinearResponse.pdf'))
-    schd.add_content(content('lecture', 'Absorption Spectroscopy', link=srcdir+'Langevin/Langevin_oscillators.ipynb'))
+    schd.add_content(content('compute', 'Absorption Spectroscopy', link=srcdir+'Langevin/Langevin_oscillators.ipynb'))
 
     schd.add_content(content('lecture', 'Nonlinear Response', link='https://mreppert.github.io/education/chm676f20/notes/NonlinearResponse.pdf'))
     schd.add_content(content('lecture', 'Nonlinear Spectroscopy', link='https://mreppert.github.io/education/chm676f20/notes/NonlinearSpectroscopy.pdf'))
