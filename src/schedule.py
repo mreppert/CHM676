@@ -162,9 +162,9 @@ def build_schedule_f2020(srcdir):
     schd.add_content(content('lecture', 'Nonlinear Spectroscopy', link='https://mreppert.github.io/education/chm676f20/notes/NonlinearSpectroscopy.pdf'))
     schd.add_content(content('compute', 'The Morse Oscillator', link=srcdir+'Morse/exercise6.ipynb'))
 
-    schd.add_content(content('lecture', 'Homogeneous vs. Inhomogenous Broadening'))
-    schd.add_content(content('lecture', 'Hole Burning Spectroscopy'))
-    schd.add_content(content('lecture', 'Motional Narrowing'))
+    schd.add_content(content('lecture', 'Fluorescence and Hole Burning', link='https://mreppert.github.io/education/chm676f20/notes/NonlinearSpectroscopy.pdf'))
+    schd.add_content(content('compute', 'Convolutions and Hole Burning'))
+    schd.add_content(content('compute', 'Broadening Mechanisms and Motional Narrowing'))
 
     schd.add_content(content('lecture', 'Pump-Probe Spectroscopy'))
     schd.add_content(content('lecture', '2D Spectroscopy'))
