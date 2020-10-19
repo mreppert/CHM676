@@ -166,7 +166,7 @@ def build_schedule_f2020(srcdir):
     schd.add_content(content('compute', 'Convolutions and Hole Burning', link=srcdir+'Broadening/Convolutions.ipynb'))
     schd.add_content(content('compute', 'Broadening Mechanisms and Motional Narrowing', link=srcdir+'Broadening/broadening.ipynb'))
 
-    schd.add_content(content('lecture', 'Pump-Probe Spectroscopy'))
+    schd.add_content(content('computer', 'Pump-Probe Spectroscopy', link=srcdir+'Morse/PumpProve.ipynb'))
     schd.add_content(content('lecture', '2D Spectroscopy'))
     schd.add_content(content('lecture', 'Morse Oscillator Nonlinear Spectroscopy'))
 
