@@ -167,7 +167,7 @@ def build_schedule_f2020(srcdir):
     schd.add_content(content('compute', 'Broadening Mechanisms and Motional Narrowing', link=srcdir+'Broadening/broadening.ipynb'))
 
     schd.add_content(content('computer', 'Pump-Probe Spectroscopy', link=srcdir+'Morse/PumpProbe.ipynb'))
-    schd.add_content(content('lecture', '2D Spectroscopy'))
+    schd.add_content(content('lecture', '2D Spectroscopy', link='https://mreppert.github.io/education/chm676f20/notes/PPand2D.pdf'))
     schd.add_content(content('lecture', 'Morse Oscillator Nonlinear Spectroscopy'))
 
     schd.add_content(content('lecture', 'Review'))
