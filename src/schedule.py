@@ -171,7 +171,7 @@ def build_schedule_f2020(srcdir):
     schd.add_content(content('compute', 'Morse Oscillator Nonlinear Spectroscopy', link=srcdir+'Morse/2DSupplement.ipynb'))
 
     schd.add_content(content('lecture', 'Review', link='https://mreppert.github.io/education/chm676f20/notes/Module2Review.pdf'))
-    schd.add_content(content('lecture', 'Review', link=srcdir+'Exam2/practice_exam2.ipynb'))
+    schd.add_content(content('lecture', 'Practice Exam2', link=srcdir+'Exam2/practice_exam2.ipynb'))
     schd.add_content(content('lecture', 'Exam'))
 
     schd.add_content(content('lecture', 'Intro to Quantum Mechanics', newtopic=True))
