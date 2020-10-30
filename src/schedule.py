@@ -72,7 +72,7 @@ class schedule:
         week = 0
         module = 0
         lastday = 8
-        mdtext = 'Welcome to Molecular Spectroscopy!\r\rThe schedule below will be updated regularly with links to online materials for each lecture. Dark blue text indicates a Jupyter Notebook-based programming/simulation module, while light-blue headings link to PDF-format lecture notes. Holidays are indicated in purple. Underlining indicates that the link is active and ready for use.\r\rPlease note! You\'ll need to be logged into your Brightspace account to view the video lectures. (Videos are actually hosted on Brightspace, although links are provided here.)\r\rClick [here](git/CHM676/src/CHM676_Syllabus_2020.pdf) for the course syllabus. ([Here](https://983291-6.kaf.kaltura.com/media/t/0_cwi5kkdu/177251882) for a video walk-through.)'
+        mdtext = 'Welcome to Molecular Spectroscopy!\r\rThe schedule below will be updated regularly with links to online materials for each lecture. Dark blue text indicates a Jupyter Notebook-based programming/simulation module, while light-blue headings link to PDF-format lecture notes. Holidays are indicated in purple. Underlining indicates that the link is active and ready for use.\r\rPlease note! You\'ll need to be logged into your Brightspace account to view the video lectures. (Videos are actually hosted on Brightspace, although links are provided here.)\r\rClick [here](git/CHM676/src/CHM676_Syllabus_2020.pdf) for the course syllabus. ([Here](https://983291-6.kaf.kaltura.com/media/t/0_cwi5kkdu/177251882) for a video walk-through.)\r\rInformation on the [Final Project](git/CHM676/src/CHM676/CHM676_Final_Project.pdf) is now posted.'
         for item in self.events:
             if item.isnew:
                 module += 1
@@ -174,17 +174,17 @@ def build_schedule_f2020(srcdir):
     schd.add_content(content('lecture', 'Practice Exam2', link=srcdir+'Exam2/practice_exam2.ipynb'))
     schd.add_content(content('lecture', 'Exam'))
 
-    schd.add_content(content('lecture', 'Intro to Quantum Mechanics', newtopic=True))
-    schd.add_content(content('lecture', 'Quantum Statistical Dynamics'))
-    schd.add_content(content('lecture', 'Dephasing in the Quantum Ensemble'))
+    schd.add_content(content('lecture', 'Intro to Quantum Mechanics', newtopic=True, link='https://mreppert.github.io/education/chm676f20/notes/IntroQuantumMechanics.pdf'))
+    schd.add_content(content('holiday', 'Reading Day'))
+    schd.add_content(content('lecture', 'Quantum Statistical Dynamics', link='https://mreppert.github.io/education/chm676f20/notes/QuantumEnsembleDynamics.pdf'))
     
-    schd.add_content(content('lecture', 'Quantum Nonlinear Response'))
-    schd.add_content(content('lecture', 'Arrow-Ladder Diagrams'))
-    schd.add_content(content('lecture', 'Diagrammatic 2D Spectroscopy'))
+    schd.add_content(content('lecture', 'Quantum Response Theory', link='https://mreppert.github.io/education/chm676f20/notes/QuantumEnsembleDynamics.pdf'))
+    schd.add_content(content('lecture', 'Arrow-Ladder Diagrams', link='https://mreppert.github.io/education/chm676f20/notes/DiagrammaticExpansions.pdf'))
+    schd.add_content(content('compute', 'Diagrammatic 2D Spectroscopy'))
 
     schd.add_content(content('lecture', 'The Harmonic Oscillator'))
     schd.add_content(content('lecture', 'Molecular Excitons'))
-    schd.add_content(content('lecture', 'Amide I Spectroscopy: Harmonic Excitons'))
+    schd.add_content(content('compute', 'Amide I Spectroscopy: Harmonic Excitons'))
 
     #schd.add_content(content('lecture', 'Pure Dephasing Models'))
     #schd.add_content(content('lecture', 'Dissipation: Redfield and Forster Regimes'))
