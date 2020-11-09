@@ -134,8 +134,8 @@ def build_schedule_f2020(srcdir):
     schd.add_holiday('2020-12-11', 'Finals')
     schd.add_holiday('2020-12-12', 'Finals')
 
-    schd.add_content(content('compute', 'Python Crash Course: Introduction', link=srcdir+'programming/definitions.ipynb', newtopic=True, vlink='https://983291-6.kaf.kaltura.com/media/t/0_nsscr85j/177251882'))
-    schd.add_content(content('compute', 'Python Crash Course: Python Arrays', link=srcdir+'programming/arrays.ipynb', vlink='https://983291-6.kaf.kaltura.com/media/t/1_arhakfmo/177251882'))
+    schd.add_content(content('compute', 'Python Crash Course: Introduction', link=srcdir+'programming/definitions.ipynb', newtopic=True, vlink='https://youtu.be/d9ceCaVjG3o'))
+    schd.add_content(content('compute', 'Python Crash Course: Python Arrays', link=srcdir+'programming/arrays.ipynb', vlink='https://youtu.be/oBBv6zHXEKE'))
     schd.add_content(content('compute', 'Python Crash Course: Molecular Dynamics', link=srcdir+'programming/md.ipynb'))
 
     schd.add_content(content('lecture', 'Maxwell\'s equations and the Lorentz Force Law', link='https://mreppert.github.io/education/chm676f20/notes/MaxwellsEquations.pdf', vlink='https://youtu.be/bwC38gprBo4'))
@@ -178,17 +178,13 @@ def build_schedule_f2020(srcdir):
     schd.add_content(content('holiday', 'Reading Day'))
     schd.add_content(content('lecture', 'Quantum Statistical Dynamics', link='https://mreppert.github.io/education/chm676f20/notes/QuantumEnsembleDynamics.pdf'))
     
-    schd.add_content(content('lecture', 'Quantum Response Theory', link='https://mreppert.github.io/education/chm676f20/notes/QuantumEnsembleDynamics.pdf'))
-    schd.add_content(content('lecture', 'Arrow-Ladder Diagrams', link='https://mreppert.github.io/education/chm676f20/notes/DiagrammaticExpansions.pdf'))
-    schd.add_content(content('compute', 'Diagrammatic 2D Spectroscopy'))
+    schd.add_content(content('lecture', 'Quantum Response Theory I', link='https://mreppert.github.io/education/chm676f20/notes/QuantumResponseTheory.pdf'))
+    schd.add_content(content('lecture', 'Quantum Response Theory II', link='https://mreppert.github.io/education/chm676f20/notes/QuantumResponseTheory.pdf'))
+    schd.add_content(content('compute', 'Amide I Excitons'))
 
-    schd.add_content(content('lecture', 'The Harmonic Oscillator'))
-    schd.add_content(content('lecture', 'Molecular Excitons'))
-    schd.add_content(content('compute', 'Amide I Spectroscopy: Harmonic Excitons'))
-
-    #schd.add_content(content('lecture', 'Pure Dephasing Models'))
-    #schd.add_content(content('lecture', 'Dissipation: Redfield and Forster Regimes'))
-    #schd.add_content(content('lecture', 'Energy Transfer in Photosynthesis'))
+    schd.add_content(content('lecture', 'Arrow-Ladder Diagrams I', link='https://mreppert.github.io/education/chm676f20/notes/DiagrammaticExpansions.pdf'))
+    schd.add_content(content('lecture', 'Arrow-Ladder Diagrams II', link='https://mreppert.github.io/education/chm676f20/notes/DiagrammaticExpansions.pdf'))
+    schd.add_content(content('compute', 'Molecular Excitons'))
     
     schd.add_content(content('lecture', 'Review'))
     
