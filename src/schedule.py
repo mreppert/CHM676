@@ -180,11 +180,11 @@ def build_schedule_f2020(srcdir):
     
     schd.add_content(content('lecture', 'Quantum Response Theory I', link='https://mreppert.github.io/education/chm676f20/notes/QuantumResponseTheory.pdf'))
     schd.add_content(content('lecture', 'Quantum Response Theory II', link='https://mreppert.github.io/education/chm676f20/notes/QuantumResponseTheory.pdf'))
-    schd.add_content(content('compute', 'Amide I Excitons'))
+    schd.add_content(content('compute', 'Amide I Excitons', link=srcdir+'excitons/AmideI.ipynb'))
 
     schd.add_content(content('lecture', 'Arrow-Ladder Diagrams I', link='https://mreppert.github.io/education/chm676f20/notes/DiagrammaticExpansions.pdf'))
     schd.add_content(content('lecture', 'Arrow-Ladder Diagrams II', link='https://mreppert.github.io/education/chm676f20/notes/DiagrammaticExpansions.pdf'))
-    schd.add_content(content('compute', 'Molecular Excitons', link=srcdir+'excitons/AmideI.ipynb'))
+    schd.add_content(content('compute', 'Molecular Excitons'))
     
     schd.add_content(content('lecture', 'Review'))
     
