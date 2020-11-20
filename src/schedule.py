@@ -184,7 +184,7 @@ def build_schedule_f2020(srcdir):
 
     schd.add_content(content('lecture', 'Arrow-Ladder Diagrams I', link='https://mreppert.github.io/education/chm676f20/notes/DiagrammaticExpansions.pdf'))
     schd.add_content(content('lecture', 'Arrow-Ladder Diagrams II', link='https://mreppert.github.io/education/chm676f20/notes/DiagrammaticExpansions.pdf'))
-    schd.add_content(content('compute', 'Molecular Excitons'))
+    schd.add_content(content('compute', 'Photosynthetic Excitons', link=srcdir+'/excitons/PigmentHunter.ipynb'))
     
     schd.add_content(content('lecture', 'Review'))
     
