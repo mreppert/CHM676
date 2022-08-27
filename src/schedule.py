@@ -143,9 +143,9 @@ def build_schedule(srcdir):
     schd.add_content(content('compute', 'Python Crash Course: Python Arrays', link=srcdir+'programming/arrays.ipynb', vlink='https://youtu.be/oBBv6zHXEKE'))
     schd.add_content(content('compute', 'Python Crash Course: Molecular Dynamics', link=srcdir+'programming/md.ipynb'))
 
-    schd.add_content(content('lecture', 'Maxwell\'s equations and the Lorentz Force Law'))# , link='https://mreppert.github.io/education/chm676f20/notes/MaxwellsEquations.pdf', vlink='https://youtu.be/bwC38gprBo4'))
-    schd.add_content(content('lecture', 'Electromagnetic Waves in Vacuum'))#, link='https://mreppert.github.io/education/chm676f20/notes/VacuumWaves.pdf', vlink='https://purdue.brightspace.com/d2l/home/52483'))
-    schd.add_content(content('compute', 'Fourier Transforms'))#, link=srcdir+'FT/FourierTransforms.ipynb', vlink='https://purdue.brightspace.com/d2l/home/52483'))
+    schd.add_content(content('lecture', 'Maxwell\'s equations and the Lorentz Force Law' , link='https://mreppert.github.io/education/chm676f20/notes/MaxwellsEquations.pdf'))#, vlink='https://youtu.be/bwC38gprBo4'))
+    schd.add_content(content('lecture', 'Electromagnetic Waves in Vacuum', link='https://mreppert.github.io/education/chm676f20/notes/VacuumWaves.pdf'))#, vlink='https://purdue.brightspace.com/d2l/home/52483'))
+    schd.add_content(content('compute', 'Fourier Transforms', link=srcdir+'FT/FourierTransforms.ipynb'))#, vlink='https://purdue.brightspace.com/d2l/home/52483'))
 
     schd.add_content(content('lecture', 'Energy Content in EM Waves'))#, link='https://mreppert.github.io/education/chm676f20/notes/EnergyContent.pdf', vlink='https://purdue.brightspace.com/d2l/home/52483'))
     schd.add_content(content('compute', 'MD in an Electric Field'))#, link=srcdir+'MDinEField/MD.ipynb'))
