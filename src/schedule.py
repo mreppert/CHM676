@@ -104,7 +104,7 @@ class schedule:
                 #titletext = '[' + titletext + '](' + item.link + ')'
             
             if len(item.vlink)>0:
-                titletext += ' ([video](' + item.vlink + '))'
+                titletext += ' ([supplement](' + item.vlink + '))'
             
                 
             mdtext += datetext + titletext + " \r\r"
@@ -168,8 +168,8 @@ def build_schedule(srcdir):
     schd.add_content(content('compute', 'The Morse Oscillator', link=srcdir+'Morse/exercise6.ipynb'))
 
     schd.add_content(content('lecture', 'Fluorescence and Hole Burning', link='https://mreppert.github.io/education/chm676f20/notes/FluorescenceHoleBurning.pdf'))
-    schd.add_content(content('compute', 'Convolutions and Hole Burning', link=srcdir+'Broadening/Convolutions.ipynb'))
-    schd.add_content(content('compute', 'Broadening Mechanisms and Motional Narrowing', link=srcdir+'Broadening/broadening.ipynb'))
+#     schd.add_content(content('compute', 'Convolutions and Hole Burning', link=srcdir+'Broadening/Convolutions.ipynb'))
+    schd.add_content(content('compute', 'Broadening Mechanisms and Motional Narrowing', link=srcdir+'Broadening/broadening.ipynb', vlink=srcdir+'Broadening/Convolutions.ipynb'))
 
     schd.add_content(content('compute', 'Pump-Probe Spectroscopy', link=srcdir+'Morse/PumpProbe.ipynb'))
     schd.add_content(content('lecture', '2D Spectroscopy', link='https://mreppert.github.io/education/chm676f20/notes/PPand2D.pdf'))
