@@ -176,6 +176,7 @@ def build_schedule(srcdir):
     schd.add_content(content('compute', 'Morse Oscillator Nonlinear Spectroscopy', link=srcdir+'Morse/2DSupplement.ipynb'))
 
 #     schd.add_content(content('lecture', 'Review'))#, link='https://mreppert.github.io/education/chm676f20/notes/Module2Review.pdf'))
+    schd.add_content(content('lecture', 'Review'))
     schd.add_content(content('lecture', 'Practice Exam2', link=srcdir+'Exam2/practice_exam2.ipynb'))
     schd.add_content(content('lecture', 'Exam', link=srcdir+'Exam2/exam2.ipynb'))
 
