@@ -109,7 +109,7 @@ class schedule:
                 
             mdtext += datetext + titletext + " \r\r"
         display_markdown(mdtext, raw=True)
-        
+
 class content:
     def __init__(self, cformat, title, newtopic=False, link='', vlink=''):
         self.cformat = cformat
@@ -121,23 +121,23 @@ class content:
 
 
 def build_schedule(srcdir):
-    schd = schedule('MWF', '2022-08-22')
+    schd = schedule('MWF', '2024-08-19')
 
-    schd.add_holiday('2022-09-05', 'Labor Day')
-    schd.add_holiday('2022-10-10', 'October Break')
-    schd.add_holiday('2022-10-11', 'October Break')
+    schd.add_holiday('2024-09-02', 'Labor Day')
+    schd.add_holiday('2024-10-07', 'October Break')
+    schd.add_holiday('2024-10-08', 'October Break')
     
-    schd.add_holiday('2022-11-23', 'Thanksgiving')
-    schd.add_holiday('2022-11-24', 'Thanksgiving')
-    schd.add_holiday('2022-11-25', 'Thanksgiving')
-    schd.add_holiday('2022-11-26', 'Thanksgiving')
+    schd.add_holiday('2024-11-27', 'Thanksgiving')
+    schd.add_holiday('2024-11-28', 'Thanksgiving')
+    schd.add_holiday('2024-11-29', 'Thanksgiving')
+    schd.add_holiday('2024-11-30', 'Thanksgiving')
 
-    schd.add_holiday('2022-12-12', 'Finals')
-    schd.add_holiday('2022-12-13', 'Finals')
-    schd.add_holiday('2022-12-14', 'Finals')
-    schd.add_holiday('2022-12-15', 'Finals')
-    schd.add_holiday('2022-12-16', 'Finals')
-    schd.add_holiday('2022-12-17', 'Finals')
+    schd.add_holiday('2024-12-09', 'Finals')
+    schd.add_holiday('2024-12-10', 'Finals')
+    schd.add_holiday('2024-12-11', 'Finals')
+    schd.add_holiday('2024-12-12', 'Finals')
+    schd.add_holiday('2024-12-13', 'Finals')
+    schd.add_holiday('2024-12-14', 'Finals')
 
     schd.add_content(content('compute', 'Python Crash Course: Introduction', link=srcdir+'programming/definitions.ipynb', newtopic=True, vlink='https://youtu.be/d9ceCaVjG3o'))
     schd.add_content(content('compute', 'Python Crash Course: Python Arrays', link=srcdir+'programming/arrays.ipynb', vlink='https://youtu.be/oBBv6zHXEKE'))
@@ -154,7 +154,6 @@ def build_schedule(srcdir):
     schd.add_content(content('lecture', 'Macroscopic Electrodynamics: Ensemble-Averaged Fields', link='https://mreppert.github.io/education/chm676f20/notes/MacroscopicElectrodynamics.pdf'))
     schd.add_content(content('compute', 'Langevin Dynamics', link=srcdir+'Langevin/Langevin.ipynb'))
     schd.add_content(content('compute', 'Material Polarization', link=srcdir+'Langevin/Langevin_oscillators.ipynb'))
-
 #     schd.add_content(content('lecture', 'Review'))
     schd.add_content(content('lecture', 'Practice Exam 1', link=srcdir+'Exam1/exam1_practice.ipynb'))
     schd.add_content(content('lecture', 'Exam (link will be activated at exam time)', link=srcdir+'Exam1/exam1.ipynb'))
@@ -174,7 +173,6 @@ def build_schedule(srcdir):
     schd.add_content(content('compute', 'Pump-Probe Spectroscopy', link=srcdir+'Morse/PumpProbe.ipynb'))
     schd.add_content(content('lecture', '2D Spectroscopy', link='https://mreppert.github.io/education/chm676f20/notes/PPand2D.pdf'))
     schd.add_content(content('compute', 'Morse Oscillator Nonlinear Spectroscopy', link=srcdir+'Morse/2DSupplement.ipynb'))
-
 #     schd.add_content(content('lecture', 'Review'))#, link='https://mreppert.github.io/education/chm676f20/notes/Module2Review.pdf'))
     schd.add_content(content('lecture', 'Review'))
     schd.add_content(content('lecture', 'Practice Exam2', link=srcdir+'Exam2/practice_exam2.ipynb'))
@@ -204,3 +202,5 @@ def build_schedule(srcdir):
 
     schd.add_content(content('lecture', 'Freedom!'))
     return schd
+
+
