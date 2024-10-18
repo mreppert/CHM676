@@ -72,7 +72,7 @@ class schedule:
         week = 0
         module = 0
         lastday = 8
-        mdtext = 'Welcome to Molecular Spectroscopy!\r\rThe schedule below will be updated regularly with links to online materials for each lecture. Dark blue text indicates a Jupyter Notebook-based programming/simulation module, while light-blue headings link to PDF-format lecture notes. Holidays are indicated in purple. Underlining indicates that the link is active and ready for use. A complete list of lecture notes from the most recent year is accessible [here](https://mreppert.github.io/education/chm676f22/notes/index.html). A free PDF copy of the textbook is available for download [here](https://mreppert.github.io/education/chm676f22/textbook.pdf).\r\r'#**Information on the [Final Project](git/CHM676/src/CHM676_Final_Project.pdf) is now posted**.'
+        mdtext = 'Welcome to Molecular Spectroscopy!\r\rThe schedule below will be updated regularly with links to online materials for each lecture. Dark blue text indicates a Jupyter Notebook-based programming/simulation module, while light-blue headings link to PDF-format lecture notes. Holidays are indicated in purple. Underlining indicates that the link is active and ready for use. A complete list of lecture notes from the most recent year is accessible [here](https://mreppert.github.io/education/chm676f22/notes/index.html). A free PDF copy of the textbook is available for download [here](https://mreppert.github.io/education/chm676f22/textbook.pdf).\r\r**Information on the [Final Project](./CHM676_Final_Project_F2024.pdf) is now posted**.'
         for item in self.events:
             if item.isnew:
                 module += 1
@@ -174,26 +174,26 @@ def build_schedule(srcdir):
     schd.add_content(content('lecture', '2D Spectroscopy', link='https://mreppert.github.io/education/chm676f20/notes/PPand2D.pdf'))
     schd.add_content(content('compute', 'Morse Oscillator Nonlinear Spectroscopy', link=srcdir+'Morse/2DSupplement.ipynb'))
 #     schd.add_content(content('lecture', 'Review'))#, link='https://mreppert.github.io/education/chm676f20/notes/Module2Review.pdf'))
-    schd.add_content(content('lecture', 'Review'))
+    schd.add_content(content('lecture', 'Practice Exam2 (F2022)', link=srcdir+'Exam2/exam2f22.ipynb'))
     schd.add_content(content('lecture', 'Practice Exam2', link=srcdir+'Exam2/practice_exam2.ipynb'))
-    schd.add_content(content('lecture', 'Exam', link=srcdir+'Exam2/exam2.ipynb'))
+    schd.add_content(content('lecture', 'Exam'))
 
     schd.add_content(content('lecture', 'Intro to Quantum Mechanics', newtopic=True, link='https://mreppert.github.io/education/chm676f20/notes/IntroQuantumMechanics.pdf'))
-    schd.add_content(content('holiday', 'Reading Day'))
-    schd.add_content(content('lecture', 'Quantum Statistical Dynamics', link='https://mreppert.github.io/education/chm676f20/notes/QuantumEnsembleDynamics.pdf'))
+    schd.add_content(content('lecture', 'Linear Alebra Concepts'))
+    schd.add_content(content('lecture', 'Quantum Morse Oscillator', link=''))
     
     schd.add_content(content('lecture', 'Quantum Response Theory I', link='https://mreppert.github.io/education/chm676f20/notes/QuantumResponseTheory.pdf'))
     schd.add_content(content('lecture', 'Quantum Response Theory II', link='https://mreppert.github.io/education/chm676f20/notes/QuantumResponseTheory.pdf'))
-    schd.add_content(content('compute', 'Amide I Excitons', link=srcdir+'excitons/AmideI.ipynb'))
+    schd.add_content(content('compute', 'Storyline workshopping'))
 
     schd.add_content(content('lecture', 'Arrow-Ladder Diagrams I', link='https://mreppert.github.io/education/chm676f20/notes/DiagrammaticExpansions.pdf'))
     schd.add_content(content('lecture', 'Arrow-Ladder Diagrams II', link='https://mreppert.github.io/education/chm676f20/notes/DiagrammaticExpansions.pdf'))
     schd.add_content(content('compute', 'Photosynthetic Excitons', link=srcdir+'excitons/PigmentHunter.ipynb'))
     
-    schd.add_content(content('lecture', 'Review'))
+    schd.add_content(content('lecture', ''))
     
-    schd.add_content(content('lecture', 'Project Presentation'))
-    schd.add_content(content('lecture', 'Project Presentation'))
+    schd.add_content(content('lecture', ''))
+    schd.add_content(content('lecture', ''))
     schd.add_content(content('lecture', 'Project Presentation'))
     
     schd.add_content(content('lecture', 'Project Presentation'))
@@ -202,5 +202,7 @@ def build_schedule(srcdir):
 
     schd.add_content(content('lecture', 'Freedom!'))
     return schd
+
+
 
 
