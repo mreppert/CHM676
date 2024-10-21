@@ -72,7 +72,7 @@ class schedule:
         week = 0
         module = 0
         lastday = 8
-        mdtext = 'Welcome to Molecular Spectroscopy!\r\rThe schedule below will be updated regularly with links to online materials for each lecture. Dark blue text indicates a Jupyter Notebook-based programming/simulation module, while light-blue headings link to PDF-format lecture notes. Holidays are indicated in purple. Underlining indicates that the link is active and ready for use. A complete list of lecture notes from the most recent year is accessible [here](https://mreppert.github.io/education/chm676f22/notes/index.html). A free PDF copy of the textbook is available for download [here](https://mreppert.github.io/education/chm676f22/textbook.pdf).\r\r**Information on the [Final Project](./CHM676_Final_Project_F2024.pdf) is now posted**.'
+        mdtext = 'Welcome to Molecular Spectroscopy!\r\rThe schedule below will be updated regularly with links to online materials for each lecture. Dark blue text indicates a Jupyter Notebook-based programming/simulation module, while light-blue headings link to PDF-format lecture notes. Holidays are indicated in purple. Underlining indicates that the link is active and ready for use. A complete list of lecture notes from the most recent year is accessible [here](https://mreppert.github.io/education/chm676f22/notes/index.html). A free PDF copy of the textbook is available for download [here](https://mreppert.github.io/education/chm676f22/textbook.pdf).\r\r**Information on the [Final Project](./git/CHM676/src/CHM676_Final_Project_F2024.pdf) is now posted**.'
         for item in self.events:
             if item.isnew:
                 module += 1
