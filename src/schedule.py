@@ -176,8 +176,8 @@ def build_schedule(srcdir):
 #     schd.add_content(content('lecture', 'Review'))#, link='https://mreppert.github.io/education/chm676f20/notes/Module2Review.pdf'))
     schd.add_content(content('lecture', 'Practice Exam2 (F2022)', link=srcdir+'Exam2/exam2f22.ipynb'))
     schd.add_content(content('lecture', 'Practice Exam2', link=srcdir+'Exam2/practice_exam2.ipynb'))
-    schd.add_content(content('lecture', 'Exam'))
-
+    schd.add_content(content('lecture', 'Exam 2', link=srcdir+'Exam2/exam2f24.ipynb'))
+    
     schd.add_content(content('lecture', 'Intro to Quantum Mechanics', newtopic=True, link='https://mreppert.github.io/education/chm676f20/notes/IntroQuantumMechanics.pdf'))
     schd.add_content(content('lecture', 'Linear Alebra Concepts'))
     schd.add_content(content('lecture', 'Quantum Morse Oscillator', link=''))
