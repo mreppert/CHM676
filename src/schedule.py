@@ -180,7 +180,7 @@ def build_schedule(srcdir):
     
     schd.add_content(content('lecture', 'Intro to Quantum Mechanics', newtopic=True, link='https://mreppert.github.io/education/chm676f20/notes/IntroQuantumMechanics.pdf'))
     schd.add_content(content('lecture', 'Linear Alebra Concepts'))
-    schd.add_content(content('lecture', 'Quantum Morse Oscillator', link=''))
+    schd.add_content(content('lecture', 'Quantum Morse Oscillator', link=srcdir+'Quantum/QuantumMorse.ipynb', vlink=srcdir+'Quantum/LinearAlgebra.ipynb'))
     
     schd.add_content(content('lecture', 'Quantum Response Theory I', link='https://mreppert.github.io/education/chm676f20/notes/QuantumResponseTheory.pdf'))
     schd.add_content(content('lecture', 'Quantum Response Theory II', link='https://mreppert.github.io/education/chm676f20/notes/QuantumResponseTheory.pdf'))
