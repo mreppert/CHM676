@@ -155,19 +155,21 @@ def build_schedule(srcdir):
     schd.add_content(content('lecture', 'Macroscopic Electrodynamics: Ensemble-Averaged Fields', link='https://mreppert.github.io/education/chm676f20/notes/MacroscopicElectrodynamics.pdf'))
     schd.add_content(content('compute', 'Langevin Dynamics', link=srcdir+'Langevin/Langevin.ipynb'))
     
-    
+    schd.add_content(content('lecture', 'Hamiltonian Mechanics'))
+    schd.add_content(content('lecture', 'Light-matter Interactions'))
     schd.add_content(content('compute', 'Material Polarization', link=srcdir+'Langevin/Langevin_oscillators.ipynb'))
-#     schd.add_content(content('lecture', 'Review'))
+    
     schd.add_content(content('lecture', 'Practice Exam 1', link=srcdir+'Exam1/exam1_practice.ipynb'))
-    schd.add_content(content('lecture', 'Exam (link will be activated at exam time)', link=''))
-
+    schd.add_content(content('lecture', 'Exam 1'))
     schd.add_content(content('lecture', 'Response Theory', newtopic=True, link='https://mreppert.github.io/education/chm676f20/notes/ResponseTheory.pdf'))
+    
+    
     schd.add_content(content('lecture', 'Linear Response', link='https://mreppert.github.io/education/chm676f20/notes/LinearResponse.pdf'))
+    schd.add_content(content('lecture', 'Circular Dichroism: Chirality'))
     schd.add_content(content('compute', 'Absorption Spectroscopy: Fluctuations and Dissipation [HW]', link=srcdir+'Langevin/LangevinAbsorption.ipynb'))
     
-    schd.add_content(content('lecture', 'Circular Dichroism: Chirality'))
-    schd.add_content(content('lecture', 'Fluorescence: Decoherence'))
-    schd.add_content(content('compute', 'Hole Burning: Convolutions and Broadening'))
+#     schd.add_content(content('lecture', 'Fluorescence: Decoherence'))
+#     schd.add_content(content('compute', 'Hole Burning: Convolutions and Broadening'))
 
     schd.add_content(content('lecture', 'Nonlinear Response', link='https://mreppert.github.io/education/chm676f20/notes/NonlinearResponse.pdf'))
     schd.add_content(content('lecture', 'Nonlinear Spectroscopy', link='https://mreppert.github.io/education/chm676f20/notes/NonlinearSpectroscopy.pdf'))
