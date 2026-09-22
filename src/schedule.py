@@ -144,15 +144,15 @@ def build_schedule(srcdir):
     schd.add_content(content('compute', 'Python Crash Course: Python Arrays', link=srcdir+'programming/arrays.ipynb', vlink='https://youtu.be/oBBv6zHXEKE'))
     schd.add_content(content('compute', 'Python Crash Course: Molecular Dynamics [HW]', link=srcdir+'programming/md.ipynb'))
 
-    schd.add_content(content('lecture', 'Maxwell\'s equations and the Lorentz Force Law' , link='https://mreppert.github.io/education/chm676f20/notes/MaxwellsEquations.pdf'))#, vlink='https://youtu.be/bwC38gprBo4'))
-    schd.add_content(content('lecture', 'Electromagnetic Waves in Vacuum', link='https://mreppert.github.io/education/chm676f20/notes/VacuumWaves.pdf'))#, vlink='https://purdue.brightspace.com/d2l/home/52483'))
+    schd.add_content(content('lecture', 'Maxwell\'s equations and the Lorentz Force Law' , link='https://mreppert.github.io/education/chm676f22/notes/MaxwellsEquations.pdf'))#, vlink='https://youtu.be/bwC38gprBo4'))
+    schd.add_content(content('lecture', 'Electromagnetic Waves in Vacuum', link='https://mreppert.github.io/education/chm676f22/notes/VacuumWaves.pdf'))#, vlink='https://purdue.brightspace.com/d2l/home/52483'))
     schd.add_content(content('compute', 'Fourier Transforms', link=srcdir+'FT/FourierTransforms.ipynb'))#, vlink='https://purdue.brightspace.com/d2l/home/52483'))
 
-    schd.add_content(content('lecture', 'Energy Content in EM Waves', link='https://mreppert.github.io/education/chm676f20/notes/EnergyContent.pdf'))#, vlink='https://purdue.brightspace.com/d2l/home/52483'))
+    schd.add_content(content('lecture', 'Energy Content in EM Waves', link='https://mreppert.github.io/education/chm676f22/notes/EnergyContent.pdf'))#, vlink='https://purdue.brightspace.com/d2l/home/52483'))
     schd.add_content(content('compute', 'MD in an Electric Field [HW]', link=srcdir+'MDinEField/MD.ipynb'))
 
-    schd.add_content(content('lecture', 'Microscopic Electrodynamics: The Wave Equation', link='https://mreppert.github.io/education/chm676f20/notes/MicroscopicElectrodynamics.pdf'))#, vlink='https://983291-6.kaf.kaltura.com/media/1_sxgljsx0'))
-    schd.add_content(content('lecture', 'Macroscopic Electrodynamics: Ensemble-Averaged Fields', link='https://mreppert.github.io/education/chm676f20/notes/MacroscopicElectrodynamics.pdf'))
+    schd.add_content(content('lecture', 'Microscopic Electrodynamics: The Wave Equation', link='https://mreppert.github.io/education/chm676f22/notes/MicroscopicElectrodynamics.pdf'))#, vlink='https://983291-6.kaf.kaltura.com/media/1_sxgljsx0'))
+    schd.add_content(content('lecture', 'Macroscopic Electrodynamics: Ensemble-Averaged Fields', link='https://mreppert.github.io/education/chm676f22/notes/MacroscopicElectrodynamics.pdf'))
     schd.add_content(content('compute', 'Langevin Dynamics', link=srcdir+'Langevin/Langevin.ipynb'))
     
     schd.add_content(content('lecture', 'Hamiltonian Mechanics'))
@@ -161,18 +161,18 @@ def build_schedule(srcdir):
     
     schd.add_content(content('lecture', 'Practice Exam 1', link=srcdir+'Exam1/exam1_practice.ipynb'))
     schd.add_content(content('lecture', 'Exam 1'))
-    schd.add_content(content('lecture', 'Response Theory', newtopic=True, link='https://mreppert.github.io/education/chm676f20/notes/ResponseTheory.pdf'))
+    schd.add_content(content('lecture', 'Response Theory', newtopic=True, link='https://mreppert.github.io/education/chm676f22/notes/ResponseTheory.pdf'))
     
     
-    schd.add_content(content('lecture', 'Linear Response', link='https://mreppert.github.io/education/chm676f20/notes/LinearResponse.pdf'))
+    schd.add_content(content('lecture', 'Linear Response', link='https://mreppert.github.io/education/chm676f22/notes/LinearResponse.pdf'))
     schd.add_content(content('lecture', 'Circular Dichroism: Chirality'))
     schd.add_content(content('compute', 'Absorption Spectroscopy: Fluctuations and Dissipation [HW]', link=srcdir+'Langevin/LangevinAbsorption.ipynb'))
     
 #     schd.add_content(content('lecture', 'Fluorescence: Decoherence'))
 #     schd.add_content(content('compute', 'Hole Burning: Convolutions and Broadening'))
 
-    schd.add_content(content('lecture', 'Nonlinear Response', link='https://mreppert.github.io/education/chm676f20/notes/NonlinearResponse.pdf'))
-    schd.add_content(content('lecture', 'Nonlinear Spectroscopy', link='https://mreppert.github.io/education/chm676f20/notes/NonlinearSpectroscopy.pdf'))
+    schd.add_content(content('lecture', 'Nonlinear Response', link='https://mreppert.github.io/education/chm676f22/notes/NonlinearResponse.pdf'))
+    schd.add_content(content('lecture', 'Nonlinear Spectroscopy', link='https://mreppert.github.io/education/chm676f22/notes/NonlinearSpectroscopy.pdf'))
     
     
     schd.add_content(content('lecture', 'Pump-probe Spectroscopy', link=''))
@@ -187,8 +187,8 @@ def build_schedule(srcdir):
     schd.add_content(content('lecture', 'Practice Exam2', link=srcdir+'Exam2/practice_exam2.ipynb'))
     schd.add_content(content('lecture', 'Exam 2', link=srcdir+'Exam2/exam2f24.ipynb'))
     
-    schd.add_content(content('lecture', 'Intro to Quantum Mechanics I', newtopic=True, link='https://mreppert.github.io/education/chm676f20/notes/IntroQuantumMechanics.pdf'))
-    schd.add_content(content('lecture', 'Intro to Quantum Mechanics II', link='https://mreppert.github.io/education/chm676f20/notes/IntroQuantumMechanics.pdf'))
+    schd.add_content(content('lecture', 'Intro to Quantum Mechanics I', newtopic=True, link='https://mreppert.github.io/education/chm676f22/notes/IntroQuantumMechanics.pdf'))
+    schd.add_content(content('lecture', 'Intro to Quantum Mechanics II', link='https://mreppert.github.io/education/chm676f22/notes/IntroQuantumMechanics.pdf'))
     schd.add_content(content('lecture', 'Linear Algebra Concepts'))
     
     schd.add_content(content('lecture', 'Quantum Harmonic Oscillator'))
@@ -197,12 +197,12 @@ def build_schedule(srcdir):
     
     schd.add_content(content('lecture', 'Normal Modes and Molecular Excitons'))
 
-    schd.add_content(content('lecture', 'Quantum Response Theory I', link='https://mreppert.github.io/education/chm676f20/notes/QuantumResponseTheory.pdf'))
-    schd.add_content(content('lecture', 'Quantum Response Theory II', link='https://mreppert.github.io/education/chm676f20/notes/QuantumResponseTheory.pdf'))
-    schd.add_content(content('lecture', 'Arrow-Ladder Diagrams I [HW]', link='https://mreppert.github.io/education/chm676f20/notes/DiagrammaticExpansions.pdf'))
+    schd.add_content(content('lecture', 'Quantum Response Theory I', link='https://mreppert.github.io/education/chm676f22/notes/QuantumResponseTheory.pdf'))
+    schd.add_content(content('lecture', 'Quantum Response Theory II', link='https://mreppert.github.io/education/chm676f22/notes/QuantumResponseTheory.pdf'))
+    schd.add_content(content('lecture', 'Arrow-Ladder Diagrams I [HW]', link='https://mreppert.github.io/education/chm676f22/notes/DiagrammaticExpansions.pdf'))
     
     
-    schd.add_content(content('lecture', 'Arrow-Ladder Diagrams II', link='https://mreppert.github.io/education/chm676f20/notes/DiagrammaticExpansions.pdf'))
+    schd.add_content(content('lecture', 'Arrow-Ladder Diagrams II', link='https://mreppert.github.io/education/chm676f22/notes/DiagrammaticExpansions.pdf'))
     schd.add_content(content('lecture', 'Review'))
     schd.add_content(content('lecture', 'Final Exam'))
     
