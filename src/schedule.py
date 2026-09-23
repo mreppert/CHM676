@@ -159,8 +159,8 @@ def build_schedule(srcdir):
     schd.add_content(content('lecture', 'Light-matter Interactions'))
     schd.add_content(content('compute', 'Material Polarization', link=srcdir+'Langevin/Langevin_oscillators.ipynb'))
     
-    schd.add_content(content('lecture', 'Practice Exam 1', link=srcdir+'Exam1/exam1_practice.ipynb'))
-    schd.add_content(content('lecture', 'Exam 1'))
+    schd.add_content(content('lecture', 'Practice Exam 1', link=srcdir+'Exam1/exam1_practice.ipynb', vlink=srcdir+'Exam1/f22_exam1.ipynb'))
+    schd.add_content(content('lecture', 'Exam 1', link=srcdir+'Exam1/exam1.ipynb'))
     schd.add_content(content('lecture', 'Response Theory', newtopic=True, link='https://mreppert.github.io/education/chm676f22/notes/ResponseTheory.pdf'))
     
     
