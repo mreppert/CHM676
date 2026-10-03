@@ -189,7 +189,7 @@ def build_schedule(srcdir):
     
     schd.add_content(content('lecture', 'Intro to Quantum Mechanics I', newtopic=True, link='https://mreppert.github.io/education/chm676f22/notes/IntroQuantumMechanics.pdf'))
     schd.add_content(content('lecture', 'Intro to Quantum Mechanics II', link='https://mreppert.github.io/education/chm676f22/notes/IntroQuantumMechanics.pdf'))
-    schd.add_content(content('lecture', 'Linear Algebra Concepts', link='Quantum/IntroLinearAlgebra.ipynb', vlink='Quantum/IntroMatrixProducts.ipynb'))
+    schd.add_content(content('lecture', 'Linear Algebra Concepts', link=srcdir+'Quantum/IntroLinearAlgebra.ipynb', vlink=srcdir+'Quantum/IntroMatrixProducts.ipynb'))
     
     schd.add_content(content('lecture', 'Quantum Harmonic Oscillator'))
     schd.add_content(content('lecture', 'Displaced Harmonic Oscillator'))
