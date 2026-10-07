@@ -166,44 +166,48 @@ def build_schedule(srcdir):
     
     schd.add_content(content('lecture', 'Linear Response', link='https://mreppert.github.io/education/chm676f22/notes/LinearResponse.pdf'))
     schd.add_content(content('lecture', 'Circular Dichroism: Chirality'))
-    schd.add_content(content('compute', 'Absorption Spectroscopy: Fluctuations and Dissipation [HW]', link=srcdir+'Langevin/LangevinAbsorption.ipynb'))
+    schd.add_content(content('compute', 'Absorption Spectroscopy: Linear Response and Fourier Relationships [HW]', link=srcdir+'Langevin/LangevinAbsorption.ipynb'))
     
-#     schd.add_content(content('lecture', 'Fluorescence: Decoherence'))
-#     schd.add_content(content('compute', 'Hole Burning: Convolutions and Broadening'))
-
+    schd.add_content(content('lecture', 'Fluorescence and Hole burning: Decoherence and Broadening', link='https://mreppert.github.io/education/chm676f22/notes/FluorescenceHoleBurning.pdf'))
+    schd.add_content(content('compute', 'Dynamic Time Scales: Chemical Exchange and Motional Narrowing', link=srcdir+'Broadening/broadening.ipynb', vlink=srcdir+'Broadening/Convolutions.ipynb'))
+    
+    schd.add_content(content('lecture', 'Rotational Spectroscopy'))
     schd.add_content(content('lecture', 'Nonlinear Response', link='https://mreppert.github.io/education/chm676f22/notes/NonlinearResponse.pdf'))
+    schd.add_content(content('compute', 'Nonlinear Response and the Morse Oscillator [HW]', link=srcdir+'Morse/exercise6.ipynb'))
+    
+    
     schd.add_content(content('lecture', 'Nonlinear Spectroscopy', link='https://mreppert.github.io/education/chm676f22/notes/NonlinearSpectroscopy.pdf'))
+    schd.add_content(content('lecture', 'Four-Wave Mixing: Pump-probe and 2D Spectroscopy', link='https://mreppert.github.io/education/chm676f22/notes/PPand2D.pdf'))
+    schd.add_content(content('compute', 'Four-wave Mixing and the Morse Oscillator'))
     
     
-    schd.add_content(content('lecture', 'Pump-probe Spectroscopy', link=''))
-    schd.add_content(content('compute', 'Nonlinear Response and the Morse Oscillator', link=srcdir+'Morse/exercise6.ipynb'))
-    schd.add_content(content('compute', 'Nonlinear Response and the Saturable Absorber [HW]', link=''))
     
-    schd.add_content(content('lecture', '2D Spectroscopy: Adding another axis', link=''))    
-    schd.add_content(content('lecture', 'Dynamic Time Scales: Chemical Exchange and Motional Narrowing', link=srcdir+'Broadening/broadening.ipynb', vlink=srcdir+'Broadening/Convolutions.ipynb'))
-    schd.add_content(content('compute', 'Monitoring Dynamics with 2D Spectroscopy', link=''))    
-
     schd.add_content(content('lecture', 'Practice Exam2 (F2022)', link=srcdir+'Exam2/exam2f22.ipynb'))
     schd.add_content(content('lecture', 'Practice Exam2', link=srcdir+'Exam2/practice_exam2.ipynb'))
     schd.add_content(content('lecture', 'Exam 2', link=srcdir+'Exam2/exam2f24.ipynb'))
     
     schd.add_content(content('lecture', 'Intro to Quantum Mechanics I', newtopic=True, link='https://mreppert.github.io/education/chm676f22/notes/IntroQuantumMechanics.pdf'))
     schd.add_content(content('lecture', 'Intro to Quantum Mechanics II', link='https://mreppert.github.io/education/chm676f22/notes/IntroQuantumMechanics.pdf'))
-    schd.add_content(content('lecture', 'Linear Algebra Concepts', link=srcdir+'Quantum/IntroLinearAlgebra.ipynb', vlink=srcdir+'Quantum/IntroMatrixProducts.ipynb'))
+    schd.add_content(content('compute', 'Linear Algebra Concepts', link=srcdir+'Quantum/IntroLinearAlgebra.ipynb', vlink=srcdir+'Quantum/IntroMatrixProducts.ipynb'))
     
-    schd.add_content(content('lecture', 'Quantum Harmonic Oscillator'))
-    schd.add_content(content('lecture', 'Displaced Harmonic Oscillator'))
-    schd.add_content(content('lecture', 'Quantum Morse Oscillator [HW]', link=srcdir+'Quantum/QuantumMorse.ipynb', vlink=srcdir+'Quantum/LinearAlgebra.ipynb'))
+    schd.add_content(content('lecture', 'TBD'))
+    schd.add_content(content('lecture', 'Quantum Harmonic Oscillator and Vibrational Spectroscopy'))
+    schd.add_content(content('compute', 'Quantum Morse Oscillator [HW]', link=srcdir+'Quantum/QuantumMorse.ipynb', vlink=srcdir+'Quantum/LinearAlgebra.ipynb'))
     
-    schd.add_content(content('lecture', 'Normal Modes and Molecular Excitons'))
+    
 
     schd.add_content(content('lecture', 'Quantum Response Theory I', link='https://mreppert.github.io/education/chm676f22/notes/QuantumResponseTheory.pdf'))
     schd.add_content(content('lecture', 'Quantum Response Theory II', link='https://mreppert.github.io/education/chm676f22/notes/QuantumResponseTheory.pdf'))
-    schd.add_content(content('lecture', 'Arrow-Ladder Diagrams I [HW]', link='https://mreppert.github.io/education/chm676f22/notes/DiagrammaticExpansions.pdf'))
+    
+    schd.add_content(content('lecture', 'Normal Modes and Molecular Excitons'))
+    schd.add_content(content('compute', 'Molecular Excitons [HW]'))
+    
+    
+    schd.add_content(content('lecture', 'Arrow-Ladder Diagrams I', link='https://mreppert.github.io/education/chm676f22/notes/DiagrammaticExpansions.pdf'))
     
     
     schd.add_content(content('lecture', 'Arrow-Ladder Diagrams II', link='https://mreppert.github.io/education/chm676f22/notes/DiagrammaticExpansions.pdf'))
-    schd.add_content(content('lecture', 'Review'))
+#     schd.add_content(content('lecture', 'Review'))
     schd.add_content(content('lecture', 'Final Exam'))
     
     schd.add_content(content('lecture', 'Freedom!'))
