@@ -178,7 +178,7 @@ def build_schedule(srcdir):
     
     schd.add_content(content('lecture', 'Nonlinear Spectroscopy', link='https://mreppert.github.io/education/chm676f22/notes/NonlinearSpectroscopy.pdf'))
     schd.add_content(content('lecture', 'Four-Wave Mixing: Pump-probe and 2D Spectroscopy', link='https://mreppert.github.io/education/chm676f22/notes/PPand2D.pdf'))
-    schd.add_content(content('compute', 'Four-wave Mixing and the Morse Oscillator'))
+    schd.add_content(content('compute', 'Four-wave Mixing and the Morse Oscillator', link=srcdir+'Morse/2DIR.ipynb', vlink=srcdir+'Morse/PumpProbe.ipynb'))
     
     
     
